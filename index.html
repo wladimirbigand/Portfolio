@@ -23,7 +23,7 @@
             /* Modifiez ces codes hexadécimaux pour changer les couleurs principales (soulignements, boutons) */
             /* Pour assombrir : choisissez une couleur plus proche du noir (ex: #059669) */
             /* Pour éclaircir : choisissez une couleur plus proche du blanc (ex: #a7f3d0) */
-            --accent: #6ee7b7;   /* Vert clair actuel */
+            --accent: #6ee7b7;    /* Vert clair actuel */
             --accent-2: #60a5fa; /* Bleu clair actuel */
         }
 
@@ -907,6 +907,31 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card hover-lift h-100" data-animate="fade-up" data-delay="400">
+                        <img src="Assets/Schema_reseau_auditcyber.png" class="card-img-top"
+                            alt="Schéma réseau audit cybersécurité" loading="lazy"
+                            style="object-fit: cover; height: 200px;"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x400/2a2a2a/FFF?text=Aperçu+Schéma';" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Infrastructure Réseau & Audit</h5>
+                            <p class="card-text text-body-secondary">Cartographie et analyse d'une infrastructure réseau
+                                existante. Proposition d'améliorations pour la sécurité (segmentation, ACL).</p>
+                            <div class="mt-auto d-flex gap-2 flex-wrap small">
+                                <span class="badge rounded-pill text-bg-dark">Cisco</span>
+                                <span class="badge rounded-pill text-bg-dark">Audit</span>
+                                <span class="badge rounded-pill text-bg-dark">Schéma</span>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex gap-2">
+                            <!-- Button to trigger a modal or open image -->
+                            <a class="btn btn-sm btn-contrast" href="#" data-bs-toggle="modal"
+                                data-bs-target="#modalSchema">
+                                <i class="bi bi-eye"></i> Voir en grand
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         </div>
@@ -1157,6 +1182,22 @@
                 <div class="modal-body p-0" style="height:80vh;">
                     <iframe src="Assets/Fiche_E5.pdf#view=FitH" class="w-100 h-100 border-0" loading="lazy">
                     </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Schéma Réseau -->
+    <div class="modal fade" id="modalSchema" tabindex="-1" aria-labelledby="modalSchemaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalSchemaLabel">Schéma Réseau - Audit Cybersécurité</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body bg-dark text-center">
+                    <img src="Assets/Schema_reseau_auditcyber.png" class="img-fluid" alt="Schéma réseau complet"
+                        onerror="this.onerror=null; this.src='https://placehold.co/1200x800/2a2a2a/FFF?text=Image+Introuvable';" />
                 </div>
             </div>
         </div>
