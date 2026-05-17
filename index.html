@@ -21,10 +21,10 @@
         /* --- CONFIGURATION DES COULEURS PRINCIPALES --- */
         :root {
             /* Modifiez ces codes hexadécimaux pour changer les couleurs principales (soulignements, boutons) */
-            /* Pour assombrir : choisissez une couleur plus proche du noir (ex: #059669) */
-            /* Pour éclaircir : choisissez une couleur plus proche du blanc (ex: #a7f3d0) */
-            --accent: #6ee7b7;    /* Vert clair actuel */
-            --accent-2: #60a5fa; /* Bleu clair actuel */
+            /* Pour assombrir : choisissez une couleur plus proche du noir (ex: #6d28d9) */
+            /* Pour éclaircir : choisissez une couleur plus proche du blanc (ex: #c4b5fd) */
+            --accent: #a855f7;    /* Violet clair */
+            --accent-2: #7c3aed; /* Violet foncé */
         }
 
         html {
@@ -43,7 +43,7 @@
             height: 60vh;
             z-index: -1;
             /* Le fond dégradé. Pour le rendre plus discret, baissez l'opacité (ex: rgba(..., 0.15)) */
-            background: radial-gradient(1000px 500px at 10% 10%, rgba(96, 165, 250, .25), transparent), radial-gradient(800px 400px at 90% 0%, rgba(110, 231, 183, .18), transparent);
+            background: radial-gradient(1000px 500px at 10% 10%, rgba(124, 58, 237, .25), transparent), radial-gradient(800px 400px at 90% 0%, rgba(168, 85, 247, .18), transparent);
             filter: blur(40px)
         }
 
@@ -1095,8 +1095,65 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
+                    <div class="card glass h-100 hover-lift" data-animate="fade-up" data-delay="400">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-shield-check"></i> MOOC SecNumAcadémie</h5>
+                            <p class="text-body-secondary small mb-2"><strong>ANSSI</strong> — Les bases de la cybersécurité
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge rounded-pill tech-badge">Cybersécurité</span>
+                                <span class="badge rounded-pill tech-badge">ANSSI</span>
+                                <span class="badge rounded-pill tech-badge">SecNum</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card glass h-100 hover-lift" data-animate="fade-up" data-delay="500">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-cpu-fill"></i> MOOC Les fondamentaux de l'IA</h5>
+                            <p class="text-body-secondary small mb-2"><strong>CNFTP</strong>
+                                — Principes de base de l'IA
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge rounded-pill tech-badge">Intelligence Artificielle</span>
+                                <span class="badge rounded-pill tech-badge">Machine Learning</span>
+                                <span class="badge rounded-pill tech-badge">MOOC</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card glass h-100 hover-lift" data-animate="fade-up" data-delay="300">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-shield-lock"></i> MOOC EBIOS Risk Manager</h5>
+                            <p class="text-body-secondary small mb-2"><strong>ANSSI</strong> — Club EBIOS ·
+                                Statut : <em>en cours</em></p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill tech-badge">Analyse des risques</span>
+                                <span class="badge rounded-pill tech-badge">Cybersécurité</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card glass h-100 hover-lift" data-animate="fade-up" data-delay="300">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-shield-lock"></i> MOOC OSINT</h5>
+                            <p class="text-body-secondary small mb-2"><strong>MOOC OSINT FR</strong> — Concept de base ·
+                                Statut : <em>en cours</em></p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill tech-badge">OSINT</span>
+                                <span class="badge rounded-pill tech-badge">Analyser des données</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
                     <div class="card glass h-100 border-dashed hover-lift" style="border-style:dashed;"
-                        data-animate="fade-up" data-delay="400">
+                        data-animate="fade-up" data-delay="600">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-hourglass-split"></i> À venir</h5>
                             <p class="text-body-secondary small mb-0">D’autres certifications sont prévues (réseau /
