@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-05-15",
+    "title": "Fuite massive chez Pierre & Vacances - Center Parcs : 4,5 millions de clients et 1,6 million de réservations exposés",
+    "source": "clubic.com / it-connect.fr",
+    "tags": ["Fuite de données", "Cybersécurité", "Tourisme"],
+    "image": "",
+    "description": "Le groupe PVCP a confirmé une fuite de données via sa plateforme La France du Nord au Sud. Le hacker ChimeraZ a exploité une vulnérabilité IDOR pour aspirer des données de réservation remontant jusqu'à 2005. Noms, téléphones, dates de naissance et lieux de séjour ont été exposés.",
+    "link": "https://www.clubic.com/actualite-613108-millions-de-clients-de-center-parcs-et-pierre-vacances-touches-par-une-fuite-de-donnees.html"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "CVE-2026-42897 : faille zero-day dans Microsoft Exchange Server activement exploitée",
+    "source": "cert.ssi.gouv.fr / it-connect.fr",
+    "tags": ["Vulnérabilité", "Zero-day", "Microsoft Exchange"],
+    "image": "",
+    "description": "Le CERT-FR alerte sur la CVE-2026-42897 (CVSS 8.1), une faille XSS dans Outlook Web Access permettant l'exécution de JavaScript arbitraire via un e-mail piégé. Exchange 2016, 2019 et SE sont concernés. Aucun correctif n'est encore disponible, seul un contournement d'urgence est activé.",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-005/"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Foxconn confirme une cyberattaque en Amérique du Nord : 8 To de données volées par le groupe Nitrogen",
+    "source": "zataz.com",
+    "tags": ["Cyberattaque", "Ransomware", "Industrie"],
+    "image": "",
+    "description": "Le géant taïwanais de la fabrication électronique Foxconn a confirmé une cyberattaque revendiquée par le groupe Nitrogen. 8 To de données auraient été exfiltrées depuis ses opérations en Amérique du Nord.",
+    "link": "https://www.zataz.com/"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "ANSSI — Panorama de la cybermenace 2025 : l'IA accélère les attaques, la France 2e pays le plus ciblé",
+    "source": "cert.ssi.gouv.fr / franceinfo.fr",
+    "tags": ["ANSSI", "Rapport", "Cybermenace", "IA"],
+    "image": "",
+    "description": "Le CERT-FR publie son panorama annuel (CERTFR-2026-CTI-003). La France est le 2e pays le plus touché par les fuites de données début 2026 avec 23,5 millions de comptes compromis. 40% des attaques par phishing intègrent désormais de l'IA générative.",
+    "link": "https://www.cert.ssi.gouv.fr/"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Patch Tuesday mai 2026 : vulnérabilités critiques dans Windows, Azure, .NET et les produits Microsoft",
+    "source": "cert.ssi.gouv.fr",
+    "tags": ["Vulnérabilité", "Microsoft", "Patch Tuesday"],
+    "image": "",
+    "description": "Le CERT-FR a publié plusieurs avis le 13 mai concernant des vulnérabilités dans Windows (exécution de code à distance, élévation de privilèges), Azure, .NET, ainsi que dans les noyaux Linux de Debian, Red Hat, SUSE et Ubuntu.",
+    "link": "https://www.cert.ssi.gouv.fr/avis/"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Attaque supply chain « Mini Shai-Hulud » : 170+ paquets npm/PyPI compromis, OpenAI et Mistral AI touchés",
+    "source": "openai.com / cybelangel.com / tanstack.com",
+    "tags": ["Supply Chain", "npm", "PyPI", "OpenAI", "Mistral AI"],
+    "image": "",
+    "description": "Le groupe TeamPCP a compromis 42 paquets TanStack via des vulnérabilités dans GitHub Actions, propageant un ver (Mini Shai-Hulud) qui vole les tokens npm/GitHub et republie des versions vérolées. Le SDK Mistral AI et 2 postes OpenAI ont été touchés. OpenAI force la rotation de ses certificats macOS.",
+    "link": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/"
+  },
+  {
+    "date": "2026-05-08",
+    "title": "Cyberhebdo : une cyberattaque sur la plateforme Canvas (Instructure) affecte des milliers d'établissements scolaires dans le monde",
+    "source": "lemagit.fr",
+    "tags": ["Cyberattaque", "Éducation", "SaaS"],
+    "image": "",
+    "description": "Instructure, éditeur de la plateforme éducative Canvas, a subi un incident de cybersécurité le 1er mai. ShinyHunters a revendiqué l'attaque. De nombreux établissements scolaires sont impactés à l'échelle mondiale.",
+    "link": "https://www.lemagit.fr/actualites/366643004/Cyberhebdo-du-8-mai-2026-une-cyberattaque-affecte-de-nombreux-etablissements-scolaires"
+  },
+  {
+    "date": "2026-05-03",
+    "title": "La ville de Quiberon victime du ransomware Qilin, services municipaux paralysés",
+    "source": "ville-quiberon.fr / lemagit.fr",
+    "tags": ["Ransomware", "Collectivité", "Qilin"],
+    "image": "",
+    "description": "Le groupe cybercriminel Qilin a revendiqué une attaque par rançongiciel contre la ville de Quiberon le 3 mai. Les données ont été chiffrées et une rançon demandée. La ville a refusé de payer, porté plainte et saisi la CNIL.",
+    "link": "https://www.ville-quiberon.fr/actualites/cyberattaque-point-de-situation/"
+  },
+  {
+    "date": "2026-04-30",
+    "title": "Vague de fuites de données en France : ANTS piratée, un mineur de 15 ans interpellé",
+    "source": "franceinfo.fr",
+    "tags": ["Fuite de données", "ANTS", "Administration"],
+    "image": "",
+    "description": "L'Agence nationale des titres sécurisés a été piratée, exposant jusqu'à 12-18 millions de lignes de données (noms, adresses, dates de naissance, téléphones). Un mineur de 15 ans a été placé en garde à vue. Le Premier ministre a annoncé 200 millions d'euros pour renforcer la cybersécurité.",
+    "link": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "La France dévoile sa Stratégie nationale de cybersécurité 2026-2030 : 5 piliers et 14 objectifs",
+    "source": "economie.gouv.fr",
+    "tags": ["Réglementation", "Stratégie nationale", "ANSSI"],
+    "image": "",
+    "description": "La ministre Anne Le Hénanff a présenté la stratégie nationale 2026-2030 avec l'ambition de faire de la France une puissance cyber de premier rang. Elle repose sur 5 piliers : culture cyber, formation, résilience, dissuasion et souveraineté technologique.",
+    "link": "https://www.economie.gouv.fr/actualites/cybersecurite-la-strategie-nationale-2026-2030-devoilee"
+  },
+  {
     "date": "2025-12-03",
     "title": "Leroy Merlin reconnaît avoir été victime d’une cyber attaque et annonce que des centaines de milliers de clients sont concernés",
     "source": "bfmtv.com - Sylvain Trinel",
@@ -54,4 +144,3 @@
     "link": "https://www.numerama.com/cyberguerre/2134229-cette-immense-armee-de-bots-a-manque-lun-des-plus-gros-coups-cyber-de-tous-les-temps.html?utm_medium=distibuted&utm_source=flipboard&utm_content=directlink&utm_campaign=2134229"
   }
 ]
-
