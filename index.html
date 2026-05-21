@@ -1413,6 +1413,44 @@
         })();
     </script>
 
+    <!-- Compteur de temps de session (minimaliste, en mémoire uniquement) -->
+    <div id="session-timer" aria-hidden="true">0:00</div>
+    <style>
+        #session-timer {
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+            z-index: 1030;
+            font-size: 12px;
+            font-variant-numeric: tabular-nums;
+            color: var(--bs-secondary-color);
+            opacity: 0.4;
+            transition: opacity 0.3s ease;
+            user-select: none;
+        }
+
+        #session-timer:hover {
+            opacity: 0.8;
+        }
+    </style>
+    <script>
+        (function () {
+            var el = document.getElementById('session-timer');
+            if (!el) return;
+            var start = Date.now();
+
+            function tick() {
+                var total = Math.floor((Date.now() - start) / 1000);
+                var m = Math.floor(total / 60);
+                var s = total % 60;
+                el.textContent = m + ':' + (s < 10 ? '0' + s : s);
+            }
+
+            tick();
+            setInterval(tick, 1000);
+        })();
+    </script>
+
 </body>
 
 </html>
